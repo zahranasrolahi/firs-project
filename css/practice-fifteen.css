@@ -10,7 +10,7 @@ body{
 }
 .fundraiser{
     max-width: 1000px;
-    background: url(image/img4.jpg) no-repeat right center fixed;
+    background: url(../image/img4.jpg) no-repeat right center fixed;
     background-size: cover;
     min-height: 1000px;
     position: relative;
