@@ -1,0 +1,772 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.fundraiser{
+    max-width: 1000px;
+    background: url(image/img4.jpg) no-repeat right center fixed;
+    background-size: cover;
+    min-height: 1000px;
+    position: relative;
+    padding: 30px;
+}
+.fundraiser-form{
+    max-width: 900px;
+    background-color: rgba(0, 0, 5, 0.625);
+    border: 2px solid rgba(0, 0, 2, 0.799) ;
+    margin: 0 auto;
+    padding: 50px 60px; 
+    
+}
+.fundraiser-form .line{
+    width: 100%;
+    height: 1px;
+    background-color:rgb(248, 248, 117) ;
+    margin: 10px 2px; 
+}
+.fundraiser-form .section{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    
+}
+.main h1{
+    font-size: 40px;
+    color: rgb(248, 248, 117);
+    font-weight: bold;
+    padding: 10px 80px;
+    
+}
+.main p {
+    font-size: 18px;
+    word-spacing: 5px;
+    color: white;
+    padding: 5px 25px;
+    
+}
+
+
+
+.fundraiser-form .section .name1{
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 10px;
+    
+}
+.fundraiser-form .section .name2{
+    padding: 40px;
+    padding-left: 5px;
+    padding-right: 150px;
+}
+.fundraiser-form .section .name1 input{
+    width: 200px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(248, 248, 117);
+}
+.fundraiser-form .section .name2 input{
+    width: 200px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(248, 248, 117);
+}
+.fundraiser-form .section .label{
+    color: rgb(248, 248, 117);
+    margin-right: 20px;
+    padding-top: 50px;
+}
+.fundraiser-form .section .label label{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.fundraiser-form .section .name1 p{
+    color: rgb(248, 248, 117);
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    left: 42%;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.fundraiser-form .section .name2 p{
+    color: rgb(248, 248, 117);
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    left: 57%;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.fundraiser-form section .email1{
+    color: rgb(248, 248, 117);
+    margin-right: 20px;
+    padding-top: 20px;
+    display: inline;
+}
+.fundraiser-form section .email1 label{
+    padding-left: 20px ;
+}
+.fundraiser-form section .email2{
+    color: rgb(248, 248, 117);
+    padding-bottom: 40px;
+    padding-left: 110px;
+    display: inline;
+}
+
+.fundraiser-form section .email2 input{
+    width: 417px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(248, 248, 117);
+}
+
+
+
+
+
+
+
+.fundraiser-form .name{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 40px 5px;
+    width: 100%;
+    padding-left: 20px;
+}
+.fundraiser-form .phone{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 40px 0px;
+    width: 100%;
+    padding-left: 20px;
+}
+.fundraiser-form .phone .phone-lable{
+    display: inline;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 10px;
+    
+}
+.fundraiser-form .phone .phone1{
+    padding-left: 100px;
+    padding-right: 20px;
+    display: inline;
+    width: auto;
+    
+}
+.fundraiser-form .phone .phone2{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    
+    
+
+}
+.fundraiser-form .phone .phone3{
+    padding-right: 160px;
+    margin-left: 10px;
+    
+
+
+}
+.fundraiser-form .phone .phone1 input{
+    width: 110px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(248, 248, 117);
+    
+}
+.fundraiser-form .phone .phone2 input{
+    width: 110px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(248, 248, 117);
+    
+}
+.fundraiser-form .phone .phone3 input{
+    width: 110px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(248, 248, 117);
+}
+.fundraiser-form .phone .phone-lable{
+    color: rgb(248, 248, 117);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    display: inline;
+}
+.fundraiser-form .section .phone-label label{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.fundraiser-form .phone .phone1 p{
+    color: rgb(248, 248, 117);
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    left: 24%;
+    padding-top: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.fundraiser-form .phone .phone2 p{
+    color: rgb(248, 248, 117);
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    left: 44%;
+    padding-top: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.fundraiser-form .phone .phone3 p{
+    color: rgb(248, 248, 117);
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    left: 64%;
+    padding-top: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+
+.fundraiser-form .terms{
+    max-height: 20px;
+    display: flex;
+    position: relative;
+    margin: 40px 0px;
+    width: 100%;
+    padding-left: 20px;
+}
+.fundraiser-form .terms .terms1{
+    display: inline;
+    padding: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+}
+.fundraiser-form .terms .terms2{
+    display: inline;
+    padding: 40px;
+    padding-left: 110px;
+    padding-right: 10px;
+    padding-top: 15px;
+    
+}
+.fundraiser-form .terms .terms3{
+    display: inline;
+    padding: 40px;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 10px;
+    
+}
+.fundraiser-form .terms .terms1 label{
+    color: rgb(248, 248, 117);
+}
+
+.fundraiser-form .terms .terms3 {
+    color: rgb(248, 248, 117);
+    font-size: 15px;
+    
+}
+
+
+
+
+
+.fundraiser-form .quantity{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+.fundraiser-form .quantity .quantity1{
+    display: inline;
+    padding: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+}
+.fundraiser-form .quantity .quantity2{
+    display: inline;
+    padding: 40px;
+    padding-left: 95px;
+    padding-right: 10px;
+    padding-top: 5px;
+    
+}
+.fundraiser-form .quantity .quantity3{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 5px;
+    
+    
+}
+.fundraiser-form .quantity .quantity1 label{
+    color: rgb(248, 248, 117);
+}
+
+.fundraiser-form .quantity .quantity3 {
+    color: rgb(248, 248, 117);
+    font-size: 15px;
+    
+}
+
+
+
+.fundraiser-form select {
+    width:60px ;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(248, 248, 117);
+    margin-left: 200px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.fundraiser-form select option{
+    font-size: 14px;
+}
+
+
+
+
+
+.fundraiser-form .total{
+    width: 417px;
+    height: 70px;
+    background-color:rgba(0, 0, 5, 0.649) ;
+    color: white;
+    font-size: 22px;
+    margin: 30px 200px;
+    position: relative;
+}
+.fundraiser-form .total div{
+    width: 100%;
+    position: absolute;
+}
+.fundraiser-form .total .main-total{
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: inline;
+}
+.fundraiser-form .total .amount-total{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 350px;
+    display: inline;
+}
+.fundraiser-form .total .short-line{
+    margin-top: 30px;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color:rgb(248, 248, 117) ;
+}
+.fundraiser-form .total .main-total-bottom{
+    margin-top: 40px;
+    position: absolute;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.fundraiser-form .total .amount-total-bottom{
+    margin-top: 40px;
+    margin-left: 360px;
+    font-size: 18px;
+}
+
+
+
+
+
+.fundraiser-form .purchase .submit input{
+    width: 417px;
+    height: 50px;
+    margin: 30px 200px;
+    background-color: rgb(251, 37, 37);
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+@media (max-width:375px) {
+    .fundraiser{
+       min-width: 100%;
+       max-height: 100%;
+    }
+    .fundraiser-form{
+        font-size: 18px;
+        max-width: 400px;
+    }
+    .fundraiser-form .section{
+        display: inline;
+    }
+    .main h1{
+        font-size: 18px;
+        padding: 10px 1px;
+        text-align: center;
+    }
+    .main p {
+        font-size: 10px;
+        word-spacing: 1px;
+        padding: 5px 1px;
+        text-align: center;
+    }
+    .fundraiser-form .section .label label{
+        padding-left: 50px;
+    }
+    .fundraiser-form .section .name1{
+        padding-left: 30px;
+        padding-bottom: 20px;
+        padding-top: 40px;
+    }
+    .fundraiser-form .section .name2{
+        padding-left: 30px;
+    }
+    .fundraiser-form .section .name1 p{
+        padding-top: 10px;
+        left: 45%;
+        font-size: 14px;
+    }
+    .fundraiser-form .section .name2 p{
+        left: 46%;
+        font-size: 14px;
+    }
+    .fundraiser-form .section .name1 input{
+        width: 100px;
+    }
+    .fundraiser-form .section .name2 input{
+        width: 100px;
+    }
+    .fundraiser-form section .email1{
+        margin-left: 5px;
+        padding-top: 30px;
+    }
+    .fundraiser-form section .email1 label{
+        padding-left: 50px ;
+    }
+    .fundraiser-form section .email2{
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    
+    .fundraiser-form section .email2 input{
+        width: 100px;
+    }
+    .fundraiser-form .phone .phone-lable{
+        padding-left: 150px;
+        padding-right: 0px;
+    }
+    .fundraiser-form .phone .phone1{
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+    .fundraiser-form .phone .phone2{
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+    .fundraiser-form .phone .phone3{
+        margin-left: 30px;
+        padding-bottom: 20px;
+    }
+    .fundraiser-form .phone .phone1 input{
+        width: 50px;
+    }
+    .fundraiser-form .phone .phone2 input{
+        width: 50px;
+    }
+    .fundraiser-form .phone .phone3 input{
+        width: 50px;
+    }
+    .fundraiser-form .phone .phone-lable{
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .fundraiser-form .phone .phone1 p{
+        left: 28%;
+    }
+    .fundraiser-form .phone .phone2 p{
+        left: 30%;
+    }
+    .fundraiser-form .phone .phone3 p{
+        left: 30%;
+    }
+    .fundraiser-form .terms{
+        display: inline;
+    }
+    .fundraiser-form .terms .terms1{
+        padding-left: 30px;
+    }
+    .fundraiser-form .terms .terms2{
+        padding-left: 70px;
+        padding-right: 5px;
+        padding-top: 20px; 
+    }
+    .fundraiser-form .terms .terms3 label{
+        padding-top:20px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .fundraiser-form .quantity{
+        display: inline;
+    }
+    .fundraiser-form .quantity .quantity1{
+        padding-left: 30px;
+    }
+    .fundraiser-form .quantity .quantity2{
+        padding-left: 70px;
+        padding-right: 5px;
+        padding-top: 20px;
+        
+    }
+    .fundraiser-form .quantity .quantity3 label{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .fundraiser-form select {
+        width:40px ;
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 30px;
+        padding-left: 1px;
+        padding-top: 1px;
+    }
+    .fundraiser-form select option{
+        font-size: 10px;
+    }
+    .fundraiser-form .total{
+        width: 150px;
+        font-size: 16px;
+        margin: 30px 10px;
+    }
+    .fundraiser-form .total .amount-total{
+        margin-left: 100px;
+    }
+    .fundraiser-form .total .main-total-bottom{
+        font-size: 12px;
+    }
+    .fundraiser-form .total .amount-total-bottom{
+        margin-left: 110px;
+        font-size: 12px;
+    }
+    
+    .fundraiser-form .purchase .submit input{
+        width: 150px;
+        height: 50px;
+        margin: 30px 10px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:375px) and (max-width:917px){
+    .fundraiser{
+        min-width: 100%;
+        max-height: 100%;
+     }
+     .fundraiser-form{
+         font-size: 18px;
+         max-width: 700px;
+     }
+     .main h1{
+         font-size: 25px;
+         padding: 10px 1px;
+         text-align: center;
+     }
+     .main p {
+         font-size: 15px;
+         word-spacing: 1px;
+         padding: 5px 1px;
+         text-align: center;
+     }
+     .fundraiser-form .section .label label{
+         padding-left: 10px;
+     }
+     .fundraiser-form .section .name1{
+         padding-left: 30px;
+         padding-bottom: 20px;
+         padding-top: 40px;
+     }
+     .fundraiser-form .section .name2{
+         padding-left: 10px;
+     }
+     .fundraiser-form .section .name1 p{
+         padding-top: 10px;
+         left: 40%;
+         font-size: 14px;
+     }
+     .fundraiser-form .section .name2 p{
+         left: 60%;
+         font-size: 14px;
+     }
+     .fundraiser-form .section .name1 input{
+         width: 150px;
+     }
+     .fundraiser-form .section .name2 input{
+         width: 150px;
+     }
+     .fundraiser-form section .email1{
+         margin-left: -30px;
+         padding-top: 30px;
+     }
+     .fundraiser-form section .email1 label{
+         padding-left: 40px ;
+     }
+     .fundraiser-form section .email2{
+         padding-top: 30px;
+         padding-left: 100px;
+     }
+     
+     .fundraiser-form section .email2 input{
+         width: 200px;
+     }
+     .fundraiser-form .phone{
+        padding-left: 5px;
+     }
+     .fundraiser-form .phone .phone1 {
+        margin-left: 20px;
+        margin-right: 200px;
+     }
+     .fundraiser-form .phone .phone2{
+        margin-top: 10px;
+        margin-left: 230px;
+        margin-right: 200px;
+     }
+     .fundraiser-form .phone .phone3{
+        margin-top: 40px;
+        margin-left: 240px;
+        margin-right: 200px;
+     }
+     .fundraiser-form .phone .phone1 p{
+        left: 41%;
+     }
+     .fundraiser-form .phone .phone2 p {
+        left: 41%;
+     }
+     .fundraiser-form .phone .phone3 p {
+        left: 41%;
+     }
+
+     
+     .fundraiser-form .terms{
+         display: inline;
+     }
+     .fundraiser-form .terms .terms1{
+        padding-left: 10px;
+        margin-top: 20px;
+     }
+     .fundraiser-form .terms .terms2{
+         padding-left: 118px;
+         padding-right: 5px;
+         padding-top: 20px; 
+     }
+     .fundraiser-form .terms .terms3 label{
+        padding-left: 10px;
+         padding-top:10px;
+         font-size: 12px;
+         text-align: center;
+     }
+     .fundraiser-form .quantity{
+         display: inline;
+     }
+     .fundraiser-form .quantity .quantity1{
+         margin-top: 20px;
+         padding-left: 10px;
+     }
+     .fundraiser-form .quantity .quantity2{
+         padding-left: 100px;
+         padding-right: 5px;
+         padding-top: 20px;
+         
+     }
+     .fundraiser-form .quantity .quantity3 label{
+         font-size: 12px;
+         text-align: center;
+         padding-top: 10px;
+     }
+     
+     .fundraiser-form select {
+         width:40px ;
+         height: 20px;
+         margin-top: 30px;
+         margin-left: 220px;
+         padding-left: 1px;
+         padding-top: 1px;
+     }
+     .fundraiser-form select option{
+         font-size: 10px;
+     }
+     .fundraiser-form .total{
+         width: 150px;
+         font-size: 16px;
+         margin: 30px 220px;
+     }
+     .fundraiser-form .total .amount-total{
+         margin-left: 100px;
+     }
+     .fundraiser-form .total .main-total-bottom{
+         font-size: 12px;
+     }
+     .fundraiser-form .total .amount-total-bottom{
+         margin-left: 110px;
+         font-size: 12px;
+     }
+     
+     .fundraiser-form .purchase .submit input{
+         width: 150px;
+         height: 50px;
+         margin: 30px 220px;
+         font-size: 16px;
+     }
+
+}
+
+
+
+
+
+
+
